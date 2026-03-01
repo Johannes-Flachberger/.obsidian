@@ -7,8 +7,13 @@ types.json
 webviewer.json
 
 # Ignore all plugin files except specific plugin data
-plugins/
+plugins/*
+!plugins/folder-notes/
+plugins/folder-notes/*
 !plugins/folder-notes/data.json
+
+!plugins/obsidian-linter/
+plugins/obsidian-linter/*
 !plugins/obsidian-linter/data.json
 
 # exclude OS settings and caches
