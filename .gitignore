@@ -1,0 +1,16 @@
+workspace.json
+workspace-mobile.json
+graph.json
+bookmarks.json
+templates.json
+types.json
+webviewer.json
+
+# Ignore all plugin files except specific plugin data
+plugins/
+!plugins/folder-notes/data.json
+!plugins/obsidian-linter/data.json
+
+# exclude OS settings and caches
+.trash/
+.DS_Store
