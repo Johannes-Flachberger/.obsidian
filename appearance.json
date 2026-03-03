@@ -3,11 +3,11 @@
   "translucency": false,
   "cssTheme": "Seamless View",
   "enabledCssSnippets": [
-    "colors", 
-    "embeddedSearch", 
-    "properties", 
-    "tasks", 
-    "consistentSpacing" 
+    "colors",
+    "embeddedSearch",
+    "properties",
+    "tasks",
+    "consistentSpacing"
   ],
   "interfaceFontFamily": "",
   "baseFontSize": 16,
