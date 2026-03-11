@@ -106,7 +106,8 @@
       "enabled": true
     },
     "move-footnotes-to-the-bottom": {
-      "enabled": true
+      "enabled": true,
+      "include-blank-line-between-footnotes": false
     },
     "re-index-footnotes": {
       "enabled": true
@@ -249,30 +250,31 @@
       "enabled": false
     },
     "prevent-double-checklist-indicator-on-paste": {
-      "enabled": true
+      "enabled": false
     },
     "prevent-double-list-item-indicator-on-paste": {
-      "enabled": true
+      "enabled": false
     },
     "proper-ellipsis-on-paste": {
       "enabled": false
     },
     "remove-hyphens-on-paste": {
-      "enabled": true
+      "enabled": false
     },
     "remove-leading-or-trailing-whitespace-on-paste": {
-      "enabled": true
+      "enabled": false
     },
     "remove-leftover-footnotes-from-quote-on-paste": {
       "enabled": false
     },
     "remove-multiple-blank-lines-on-paste": {
-      "enabled": true
+      "enabled": false
     }
   },
   "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
+  "suppressMessageWhenNoChange": false,
   "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
